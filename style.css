@@ -593,6 +593,74 @@ body {
     width: 100%;
   }
 }
+
+/* ==== EXTRA SMALL SCREENS (phones, <600px) ==== */
+@media (max-width: 600px) {
+  .home {
+    flex-direction: column;
+    padding-top: 100px;
+    padding-left: 5%;
+    padding-right: 5%;
+    gap: 30px;
+    text-align: center;
+  }
+
+  .home-img .img-box {
+    width: 70vw;
+    height: 70vw;
+  }
+
+  .home-info h1 {
+    font-size: 32px;
+  }
+
+  .home-info h2 {
+    font-size: 20px;
+    height: 30px;
+  }
+
+  .home-info p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .btn {
+    padding: 8px 20px;
+    font-size: 14px;
+  }
+
+  .sci a {
+    width: 36px;
+    height: 36px;
+    font-size: 16px;
+  }
+
+  .contact .content h2 {
+    font-size: 2em;
+  }
+
+  .contact .content p {
+    font-size: 1em;
+  }
+
+  .inputBox input,
+  .inputBox textarea {
+    font-size: 0.95em;
+  }
+
+  .learning-icons {
+    font-size: 2.5em;
+    gap: 30px;
+  }
+
+  .skills-projects h2 {
+    font-size: 2.2em;
+  }
+
+  .footer {
+    font-size: 0.85em;
+  }
+}
 /* ==== FOOTER ==== */
 .footer {
   text-align: center;
