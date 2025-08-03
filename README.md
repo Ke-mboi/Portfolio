@@ -1,4 +1,4 @@
-# Elvis Kemboi Portfolio
+
 
 This is a personal portfolio website built with HTML and CSS showcasing technical skills, education, interests, and contact information. It features a modern design with animated rotating borders around the profile image and responsive layouts for different screen sizes.
 
